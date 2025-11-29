@@ -1,55 +1,43 @@
-# 🎓 Student Performance Prediction — Machine Learning Project
+# 🎓 Student Performance Prediction — Machine Learning
 
-This project predicts a student's **Math score** based on academic performance and study behavior.  
-The model uses Linear Regression and achieves **88% accuracy (R² Score)**.
+This project predicts a student's **Math Score** using a Machine Learning model trained with academic performance and study-related factors.  
+The model uses **Linear Regression** and achieves a performance of **R² Score = 0.88**.
 
 ---
 
-## 📌 Project Overview
-
-| Category | Details |
-|----------|---------|
-| Problem Type | Regression (Numeric Prediction) |
-| Algorithm Used | Linear Regression |
-| Evaluation Metrics | R² Score, MSE |
-| Score Achieved | **0.88 R²**, **29.09 MSE** |
-| Tools Used | Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn |
+## 📌 Objectives
+- Analyze student data and identify key factors affecting performance
+- Build a regression model to predict Math Scores
+- Perform EDA, preprocessing, and model evaluation
 
 ---
 
 ## 📊 Dataset Information
+- File: `StudentsPerformance.csv`
+- Rows: 1000
+- Columns used for final model:
 
-Dataset used: `StudentsPerformance.csv`  
-After feature selection & encoding, the final model uses:
+| Feature | Description |
+|---------|-------------|
+| `reading score` | Reading exam score |
+| `writing score` | Writing exam score |
+| `gender` | Male / Female |
+| `lunch` | Standard / Free-Reduced |
+| `test preparation` | Completed / None |
 
-#### **Input Features:**
-- Reading Score
-- Writing Score
-- Gender (male / female)
-- Lunch (standard / free)
-- Test preparation course (none / completed)
-
-#### **Target Output:**
-- Math Score
-
----
-
-## 🧠 Model Workflow
-
-1. Data Cleaning & Preprocessing
-2. Exploratory Data Analysis (EDA)
-3. Feature Selection
-4. Encoding categorical variables
-5. Train-Test Split (80/20)
-6. Linear Regression Training
-7. Model Evaluation Metrics
-8. Saving model as `model.pkl`
+### 🎯 Target:
+- `math score`
 
 ---
 
-## 🚀 How to Run the Project
+## 🧠 Model Used
+| Metric | Score |
+|--------|--------|
+| **R² Score** | **0.88** |
+| **MSE** | **29.09** |
 
-### 🔽 Clone the Repository
-```bash
-git clone https://github.com/Noorahmedks-2103/Student-Performance-Prediction-ML.git
-cd Student-Performance-Prediction-ML
+Algorithm: **Linear Regression (Sklearn)**
+
+---
+
+## 📂 Project Structure
