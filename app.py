@@ -21,7 +21,7 @@ data = {
     "writing score": [writing],
     "gender_male": [1 if gender == "male" else 0],
     "lunch_standard": [1 if lunch == "standard" else 0],
-    "test preparation course_completed": [1 if test_prep == "completed" else 0]
+    "test preparation course_none": [1 if test_prep == "none" else 0]
 }
 
 input_df = pd.DataFrame(data)
