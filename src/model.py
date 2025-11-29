@@ -5,7 +5,7 @@ from sklearn.metrics import r2_score, mean_squared_error
 import pickle
 
 # Load dataset
-df = pd.read_csv("../StudentsPerformance.csv")
+df = pd.read_csv("StudentsPerformance.csv")
 
 # Convert categorical values to numerical (encoding)
 df = pd.get_dummies(df, drop_first=True)
