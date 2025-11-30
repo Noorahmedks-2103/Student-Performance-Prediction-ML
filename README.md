@@ -48,6 +48,13 @@ git clone https://github.com/Noorahmedks-2103/Student-Performance-Prediction-ML.
 cd Student-Performance-Prediction-ML
 pip install pandas numpy seaborn matplotlib scikit-learn
 python src/model.py
+## 🧪 Run Prediction Example
+
+To test the trained model with sample input:
+```bash
+python predict.py
+Predicted Math Score: 88
+
 🧠 Key Learnings
 
 Data preprocessing & feature encoding
