@@ -49,7 +49,8 @@ git clone https://github.com/Noorahmedks-2103/Student-Performance-Prediction-ML.
 cd Student-Performance-Prediction-ML
 pip install pandas numpy seaborn matplotlib scikit-learn
 python src/model.py```
-🧠 Key Learnings
+
+## 🧠 Key Learnings
 
 Data preprocessing & feature encoding
 
