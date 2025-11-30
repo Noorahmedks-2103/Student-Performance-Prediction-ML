@@ -44,8 +44,6 @@ Located in: `src/model.py`
 
 ## 🚀 How to Run
 
-## 🚀 How to Run
-
 ```bash
 git clone https://github.com/Noorahmedks-2103/Student-Performance-Prediction-ML.git
 cd Student-Performance-Prediction-ML
