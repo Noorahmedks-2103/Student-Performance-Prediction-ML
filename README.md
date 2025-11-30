@@ -48,8 +48,8 @@ git clone https://github.com/Noorahmedks-2103/Student-Performance-Prediction-ML.
 cd Student-Performance-Prediction-ML
 pip install pandas numpy seaborn matplotlib scikit-learn
 python src/model.py
-Key Learnings
 
+Key learning
 Data preprocessing & feature encoding
 
 Exploratory Visualizations & Heatmaps
@@ -85,4 +85,5 @@ Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software...
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND...
+
 
