@@ -41,15 +41,13 @@ MSE: 29.09
 Located in: `src/model.py`
 
 ---
+
 ## 🚀 How to Run
 ```bash
 git clone https://github.com/Noorahmedks-2103/Student-Performance-Prediction-ML.git
 cd Student-Performance-Prediction-ML
 pip install pandas numpy seaborn matplotlib scikit-learn
 python src/model.py
-
-
-
 🧠 Key Learnings
 
 Data preprocessing & feature encoding
@@ -66,7 +64,6 @@ Add Random Forest & compare model performance
 Deploy using Streamlit Web App
 
 Create dashboard interface
-
 👨‍💻 Developer
 
 K S Noor Ahamad
@@ -78,13 +75,7 @@ K S Noor Ahamad
 🔗 LinkedIn: https://www.linkedin.com/in/k-s-noor-ahmed-943403319
 
 📜 License (MIT)
+
 MIT License
-
-Copyright (c) 2025 K S Noor Ahamad
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software...
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND...
-
+Copyright (c) 2025
 
