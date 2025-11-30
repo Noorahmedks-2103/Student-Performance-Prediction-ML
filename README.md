@@ -34,7 +34,7 @@ Visual insights include:
 - Train-test split: **80 / 20**
 
 ### Model Performance
-R2 Score: 0.88
+R2 Score: 0.88  
 MSE: 29.09
 
 ### Model Script
@@ -57,6 +57,7 @@ Exploratory Visualizations & Heatmaps
 Regression modelling & evaluation metrics
 
 Saving trained ML models with pickle
+
 🌟 Future Enhancements
 
 Add Random Forest & compare model performance
@@ -64,6 +65,7 @@ Add Random Forest & compare model performance
 Deploy using Streamlit Web App
 
 Create dashboard interface
+
 👨‍💻 Developer
 
 K S Noor Ahamad
@@ -78,4 +80,3 @@ K S Noor Ahamad
 
 MIT License
 Copyright (c) 2025
-
