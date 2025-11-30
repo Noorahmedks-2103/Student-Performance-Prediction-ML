@@ -1,43 +1,51 @@
-# 🎓 Student Performance Prediction — Machine Learning
+# 🎓 Student Performance Prediction Using Machine Learning
 
-This project predicts a student's **Math Score** using a Machine Learning model trained with academic performance and study-related factors.  
-The model uses **Linear Regression** and achieves a performance of **R² Score = 0.88**.
-
----
-
-## 📌 Objectives
-- Analyze student data and identify key factors affecting performance
-- Build a regression model to predict Math Scores
-- Perform EDA, preprocessing, and model evaluation
+This project predicts **Math Score** based on demographic and academic features using a **Linear Regression model**. It includes full Exploratory Data Analysis (EDA), visualization, model training, and performance evaluation.
 
 ---
 
-## 📊 Dataset Information
-- File: `StudentsPerformance.csv`
-- Rows: 1000
-- Columns used for final model:
-
-| Feature | Description |
-|---------|-------------|
-| `reading score` | Reading exam score |
-| `writing score` | Writing exam score |
-| `gender` | Male / Female |
-| `lunch` | Standard / Free-Reduced |
-| `test preparation` | Completed / None |
-
-### 🎯 Target:
-- `math score`
+## 📂 Project Files
+├── StudentsPerformance.csv
+├── EDA.ipynb
+├── heatmap.png
+├── model.pkl
+└── src
+└── model.py
 
 ---
 
-## 🧠 Model Used
-| Metric | Score |
-|--------|--------|
-| **R² Score** | **0.88** |
-| **MSE** | **29.09** |
+## 📊 Exploratory Data Analysis (EDA)
+Visual insights include:
+- Score distributions (Math, Reading & Writing)
+- Boxplot comparison of scores
+- Impact of Lunch type & Test Preparation
+- Gender comparison
+- **Correlation Heatmap**
 
-Algorithm: **Linear Regression (Sklearn)**
+### 📈 Heatmap Example
+![Heatmap](heatmap.png)
 
 ---
 
-## 📂 Project Structure
+## 🤖 Machine Learning Model
+
+### Algorithm Used
+- **Linear Regression**
+- Train-test split: **80 / 20**
+
+### Model Performance
+R2 Score: 0.88
+MSE: 29.09
+
+### Model Script
+Located in: `src/model.py`
+
+---
+
+## 🚀 How to Run
+
+```bash
+git clone https://github.com/Noorahmedks-2103/Student-Performance-Prediction-ML.git
+cd Student-Performance-Prediction-ML
+pip install pandas numpy seaborn matplotlib scikit-learn
+python src/model.py
