@@ -44,21 +44,20 @@ Located in: `src/model.py`
 
 ## 🚀 How to Run
 
+## 🚀 How to Run
+
 ```bash
 git clone https://github.com/Noorahmedks-2103/Student-Performance-Prediction-ML.git
 cd Student-Performance-Prediction-ML
 pip install pandas numpy seaborn matplotlib scikit-learn
-python src/model.py```
+python src/model.py
 
+```markdown
 ## 🧠 Key Learnings
-
-Data preprocessing & feature encoding
-
-Exploratory Visualizations & Heatmaps
-
-Regression modelling & evaluation metrics
-
-Saving trained ML models with pickle
+- Data preprocessing & feature encoding
+- Exploratory Visualizations & Heatmaps
+- Regression modelling & evaluation metrics
+- Saving trained ML models with pickle
 
 🌟 Future Enhancements
 
