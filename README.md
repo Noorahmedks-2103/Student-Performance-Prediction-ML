@@ -49,7 +49,8 @@ cd Student-Performance-Prediction-ML
 pip install pandas numpy seaborn matplotlib scikit-learn
 python src/model.py
 
-Key learning
+
+ ## Key learning
 Data preprocessing & feature encoding
 
 Exploratory Visualizations & Heatmaps
