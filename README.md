@@ -49,3 +49,30 @@ git clone https://github.com/Noorahmedks-2103/Student-Performance-Prediction-ML.
 cd Student-Performance-Prediction-ML
 pip install pandas numpy seaborn matplotlib scikit-learn
 python src/model.py
+🧠 Key Learnings
+
+Data preprocessing & feature encoding
+
+Exploratory Visualizations & Heatmaps
+
+Regression modelling & evaluation metrics
+
+Saving trained ML models with pickle
+
+🌟 Future Enhancements
+
+Add Random Forest & compare model performance
+
+Deploy using Streamlit Web App
+
+Create dashboard interface
+
+👨‍💻 Developer
+
+K S Noor Ahamad
+📍 Tirupati, Andhra Pradesh
+📧 nkurnipalli34@gmail.com
+
+🔗 GitHub: https://github.com/Noorahmedks-2103
+
+🔗 LinkedIn: https://www.linkedin.com/in/k-s-noor-ahmed-943403319
